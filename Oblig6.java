@@ -6,7 +6,9 @@ public class TimelisteDb {
 
     public TimelisteDb(Connection connection) {
         this.connection = connection;
+        
     }
+    
     public void printTimelister() throws SQLException {
       try{
 
